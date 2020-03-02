@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+        <TextView
+            android:id="@+id/ConteoIn"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="32sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/conteo"
+            android:textAlignment="center"
+            android:textSize="@dimen/TamanoNumero"
+            android:textColor="@color/ColorNumero"
+            android:gravity="center"
+
+            />
+
+        <TextView
+            android:id="@+id/RotuloInside"
+            android:layout_below="@id/ConteoIn"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="32sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/inside"
+            android:textAlignment="center"
+            android:textSize="@dimen/TamanoInOut"
+            android:textColor="@color/ColorBoton"
+            android:textStyle="bold"
+            android:gravity="center"
+
+        />
+
+        <Button
+            android:id="@+id/AnadirPersonaIn"
+            android:layout_below="@+id/RotuloInside"
+            android:layout_marginTop="32sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/OneMorePerson"
+            android:layout_centerHorizontal="true"
+            android:textSize="@dimen/TamanoInOut"
+            android:background="@color/ColorBoton"
+
+            />
+
+
+
+
+        <TextView
+            android:id="@+id/ConteoOut"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="32sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/conteo"
+            android:textAlignment="center"
+            android:textSize="@dimen/TamanoNumero"
+            android:textColor="@color/ColorNumero"
+            android:gravity="center"
+            android:layout_above="@id/RotuloOutside"
+
+            />
+
+        <TextView
+            android:id="@+id/RotuloOutside"
+            android:layout_above="@id/AnadirPersonaOut"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="32sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OUTSIDE"
+            android:textAlignment="center"
+            android:textSize="@dimen/TamanoInOut"
+            android:textColor="@color/ColorBoton"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="32sp"
+
+            />
+
+        <Button
+            android:id="@+id/AnadirPersonaOut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/OneMorePerson"
+            android:layout_centerHorizontal="true"
+            android:textSize="@dimen/TamanoInOut"
+            android:background="@color/ColorBoton"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="52sp"
+            />
+
+
+
+
+
+
+</RelativeLayout>
+
