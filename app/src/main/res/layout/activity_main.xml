@@ -48,10 +48,16 @@
             android:layout_centerHorizontal="true"
             android:textSize="@dimen/TamanoInOut"
             android:background="@color/ColorBoton"
+            android:onClick="metodoAnadirIn"
 
             />
 
-
+        <View
+            android:id="@+id/centerShimP"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_centerVertical="true"
+            android:background="@color/lineColor"/>
 
 
         <TextView
@@ -96,6 +102,7 @@
             android:background="@color/ColorBoton"
             android:layout_alignParentBottom="true"
             android:layout_marginBottom="52sp"
+            android:onClick="metodoAnadirOut"
             />
 
 

@@ -6,4 +6,5 @@
     <color name="ColorNumero">#1009FF</color>
     <color name="ColorInsideOutside">#F10B0B</color>
     <color name="ColorBoton">#ffaaff</color>
+    <color name="lineColor">#1B0AF1</color>
 </resources>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/ConteoIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="67dp"
+        android:layout_marginLeft="67dp"
+        android:layout_marginTop="32dp"
+
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_toStartOf="@+id/centerShim"
+        android:layout_toLeftOf="@+id/centerShim"
+        android:gravity="center"
+        android:text="@string/conteo"
+        android:textAlignment="center"
+        android:textColor="@color/ColorNumero"
+        android:textSize="@dimen/TamanoNumero" />
+
+    <TextView
+        android:id="@+id/RotuloInside"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="124dp"
+
+
+        android:layout_marginLeft="124dp"
+        android:layout_marginTop="73dp"
+        android:gravity="center"
+        android:text="@string/inside"
+        android:textAlignment="center"
+        android:textColor="@color/ColorBoton"
+        android:textSize="@dimen/TamanoInOut"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/AnadirPersonaIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="91dp"
+
+
+        android:layout_marginLeft="91dp"
+        android:layout_marginTop="87dp"
+        android:layout_marginRight="93dp"
+        android:layout_marginBottom="50dp"
+        android:background="@color/ColorBoton"
+        android:onClick="metodoAnadirIn"
+        android:text="@string/OneMorePerson"
+        android:textSize="@dimen/TamanoInOut" />
+
+    <View
+        android:id="@+id/centerShim"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:background="@color/lineColor"/>
+
+
+    <TextView
+        android:id="@+id/ConteoOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+
+        android:layout_alignParentRight="true"
+
+        android:layout_marginStart="68dp"
+
+        android:layout_marginLeft="68dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="67dp"
+        android:layout_marginRight="67dp"
+
+
+        android:layout_marginBottom="28dp"
+        android:layout_toEndOf="@+id/centerShim"
+        android:layout_toRightOf="@+id/centerShim"
+        android:gravity="center"
+        android:text="@string/conteo"
+        android:textAlignment="center"
+        android:textColor="@color/ColorNumero"
+        android:textSize="@dimen/TamanoNumero" />
+
+    <TextView
+        android:id="@+id/RotuloOutside"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="122dp"
+        android:layout_marginEnd="115dp"
+        android:layout_marginRight="115dp"
+        android:layout_marginBottom="199dp"
+        android:gravity="center"
+        android:text="OUTSIDE"
+        android:textAlignment="center"
+        android:textColor="@color/ColorBoton"
+        android:textSize="@dimen/TamanoInOut"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/AnadirPersonaOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_alignParentEnd="true"
+
+
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+
+        android:layout_marginTop="87dp"
+        android:layout_marginEnd="91dp"
+        android:layout_marginRight="98dp"
+        android:layout_marginBottom="50dp"
+        android:background="@color/ColorBoton"
+        android:onClick="metodoAnadirOut"
+        android:text="@string/OneMorePerson"
+        android:textSize="@dimen/TamanoInOut" />
+
+
+</RelativeLayout>
+
